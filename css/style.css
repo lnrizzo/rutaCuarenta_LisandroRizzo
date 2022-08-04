@@ -1,0 +1,372 @@
+*{
+    padding: 0;
+    margin: 0.5rem;
+
+}
+html{
+    font-size: 62.5%;
+}
+
+.headerGrid{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 80% 20%;
+    grid-template-areas: 
+    "tit"
+    "nav";
+}
+
+.headMain{
+    grid-area: tit;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows:  100%;
+    grid-template-areas: 
+    "img rut";
+}
+
+.headerTitle{
+    color: lightslategrey;
+    font-size: 10rem;
+    grid-area: rut;
+}
+
+.headerImage{
+    width: 10rem;
+    grid-area: img;
+    padding-left: 3rem;
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    padding-right: 2rem;
+    margin-right: 3rem;
+}
+
+.whoPhoto{
+    width: 30rem;
+}
+
+nav{
+    font-size: 2rem;
+    color: lightslategray;
+    text-decoration: none;
+}
+
+.mainHome p{
+    font-size: 2.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.who{
+    color: lightslategrey;
+    font-size: 4rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.whoName{
+    color: lightslategrey;
+    font-size: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+header nav ul li{ 
+    display: inline;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.rutaCompl{
+    width: 18rem;
+    grid-area: mapC;
+}
+
+.mapP{
+    width: 13rem;
+    grid-area: mapP; 
+}
+
+.pageGrid{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 20% 80%;
+    grid-template-areas: 
+    "itin itin"
+    "desc mapP";
+    margin-bottom: 0.1rem;
+}
+
+.pageTitle{
+    color: lightslategrey;
+    font-size: 4rem;
+    grid-area: itin;
+}
+
+.zone{
+    color: lightslategrey;
+    font-size: 3.5rem;
+}
+
+.descP{
+    grid-area: desc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+main div p{
+    font-size: 2.5rem;
+}
+
+main section p{
+    font-size: 2rem;
+}
+
+main section h3{
+    font-size: 3rem;
+    color: lightslategrey;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.footerGrid{
+    text-decoration: none;
+    background-color: lightskyblue;
+    margin: 0.5;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+
+.footerGrid .listFooter li a{
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.sectImg{
+    width: 40rem;
+    height: 25rem;
+}
+
+.mainHome{
+    grid-area: txtH;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 1rem;
+}
+
+.textHome{
+    justify-content: center;
+}
+
+.sectionHome{
+    grid-area: mediaH;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main section h3 p{
+    color: black;
+    font-weight: normal;
+}
+
+.sectIt{
+    margin-top: 3rem;
+    padding: 2rem;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.txtRight{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.right img{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.txtLeft{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 70%;
+}
+
+.left img{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.zoneD{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 4% repeat(4,24%);
+    grid-template-areas: 
+    "titN titN"
+    "s1 s2"
+    "s3 s4"
+    "s5 s6"
+    "s7 s8";
+}
+
+.zone{
+    grid-area: titN;
+}
+
+.sect1{
+    grid-area: s1;
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+}
+
+.sect2{
+    grid-area: s2;
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+}
+
+.sect3{
+    grid-area: s3;
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+}
+
+.sect4{
+    grid-area: s4;
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+}
+
+.sect5{
+    grid-area: s5;
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+}
+
+.sect6{
+    grid-area: s6;
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+}
+
+.sect7{
+    grid-area: s7;
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+}
+
+.sect8{
+    grid-area: s8;
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+}
+
+.sect9{
+    grid-area: s9;
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+}
+
+.contVid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.zoneS{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 5% repeat(5,19%);
+    grid-template-areas: 
+    "titN titN"
+    "s1 s2"
+    "s3 s4"
+    "s5 s6"
+    "s7 s8"
+    "s9 s9";
+}
+
+@media screen and (max-width:768px) {
+    .zoneD{
+        grid-template-columns: 100%;
+        grid-template-rows: 4% repeat(8,12%);
+        grid-template-areas: 
+        "titN"
+        "s1" 
+        "s2"
+        "s3"
+        "s4"
+        "s5"
+        "s6"
+        "s7" 
+        "s8";
+    }
+
+    .zoneS{
+        grid-template-columns: 100%;
+        grid-template-rows: 1% repeat(9,11%);
+        grid-template-areas: 
+        "titN"
+        "s1"
+        "s2"
+        "s3"
+        "s4"
+        "s5" 
+        "s6"
+        "s7" 
+        "s8"
+        "s9" 
+        "s9";
+    }
+}
+
