@@ -370,3 +370,28 @@ main section h3 p{
     }
 }
 
+.sectImg:hover{
+    transform: scale(1.2);
+    transition: all 2s;
+}
+
+.mapP:hover{
+    transform: scale(1.5);
+    transition: all 3s;
+}
+
+.navList_item1:hover{
+    text-decoration: underline;
+}
+
+.navList_item2:hover{
+    text-decoration: underline;
+}
+
+.navList_item3:hover{
+    text-decoration: underline;
+}
+
+.navList_item4:hover{
+    text-decoration: underline;
+}
